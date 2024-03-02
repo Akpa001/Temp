@@ -1,0 +1,16 @@
+print("K and °C Tempereture Converter")
+Temperature = int(input("Temperature: "))
+
+unit = input("K or °C ")
+
+if unit.upper() == "K":
+	converted = Temperature -273
+	print("Temperature : " + str(converted) + "°C")
+else:
+	converted = Temperature + 273
+	print("Temperature: " + str(converted)+"K") 
+print("Done ")
+
+
+
+	
